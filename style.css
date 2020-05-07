@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+article{
+    background-color: #000000;
+    margin: 230px 253px;
+    padding: 45px;
+    width: 100%;
+    font-size: 3rem;
+}
+.icon{
+    color: yellow;
+    display: inline;
+}
+span{
+    color: #ffffff;
+    cursor: pointer;
+}
+span:hover{
+    color: #ff0000;
+}
+span:hover+span{
+    color: #f3a6b1;
+}
+spna:hover~span{
+    color: #ffffff;
+}
