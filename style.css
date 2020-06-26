@@ -26,3 +26,26 @@ span:hover+span{
 spna:hover~span{
     color: #ffffff;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    body{
+        background-color: black;
+    
+    }
+    article{
+        background-color: #000000;
+        margin: 8em 0em;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    article{
+        background-color: #000000;
+        margin: 8em 3em;
+        font-size: 1.5rem;
+
+    }
+}
